@@ -16,7 +16,7 @@
  * Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "ccache.h"
+#include "common.h"
 
 struct args *
 args_init(int init_argc, char **init_args)
@@ -186,4 +186,3 @@ args_equal(struct args *args1, struct args *args2)
     }
     return true;
 }
-

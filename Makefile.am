@@ -1,0 +1,2 @@
+SUBDIRS = src
+EXTRA_DIST = GPL-3.0.txt README.md
