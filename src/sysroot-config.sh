@@ -64,9 +64,6 @@ cc_links() {
 	local a
 	for a in gcc cc c++ g++ cpp ; do
 		if [ -n "${2}" ] ; then
-			# gcc-config doesnt install ${CHOST}-cc, so until
-			# it does, don't install a ccache symlink for it
-			[ "${a}" = "cc" ] && continue
 			a="${2}-${a}"
 		fi
 		eval "cc_${1}_link" "${a}"

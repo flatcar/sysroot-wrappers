@@ -1,11 +1,15 @@
+*~
 *.o
 .deps
 Makefile
 Makefile.in
 /autom4te.cache
+/compile
 /config.h
+/config.guess
 /config.log
 /config.status
+/config.sub
 /configure
 /depcomp
 /install-sh
